@@ -1,0 +1,199 @@
+.header{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+    height:60px;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding: 10px;
+}
+.navbar {
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+    margin-bottom: 0;
+}
+.links{
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Lucida;
+    color: black;
+    margin-top: 10px;
+}
+body{
+    padding-top: 30px;
+}
+.headerpic{
+    border-radius:3px;
+    height:60px;
+    width:120px;
+    position:relative;
+    bottom:0;
+}
+.middlesection{
+    margin-top: 10px;
+    flex:1;
+    margin-left: 400px;
+    font-family:Lucida;
+    font-size:20px;
+}
+.endsection{
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Lucida;
+}
+.Searchbar{
+    margin-top: 10px;
+}
+.mainpic{
+    flex-basis:100%;
+    margin-top:30px;
+    width:100vw;
+    height:500px;
+    display:block;
+    margin-bottom: 20px;
+}
+.text1{
+    font-family: Times New Roman;
+    font-size: 50px;
+    color: rgb(239, 146, 71);
+    text-align:center;
+    margin-bottom:30px;
+    margin-top:30px;
+    font-style: italic;
+}
+.attractions{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap:20px;
+}
+.attraction1pic{
+    width:100%;
+    height:150px;
+    object-fit:contain;
+
+}
+.attraction2pic{
+    width:100%;
+    height:150px;
+    object-fit:contain;
+}
+.attraction3pic{
+    width: 100%;
+    height:150px;
+    object-fit:contain;
+}
+.att1name{
+    font-size: 30px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.att2name{
+    font-size: 30px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.att3name{
+    font-size: 30px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Mysurupalace{
+    margin-top:70px;
+    height: 500px;
+    display:block;
+    position:relative;
+    left:0;
+    object-fit: cover;
+    right: 0;
+    overflow: hidden;
+}
+.centertext{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align:center;
+}
+.Intro{
+    margin-top: 10px;
+    color:black;
+    font-size:30px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.introtext{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.linktest{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pics{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.gridpics{
+    flex: 1;
+    height:220px;
+    overflow: hidden;
+}
+.gridpics img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.footer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    margin-left:0;
+    background-color:rgb(219, 156, 119);
+    position:relative;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100px;
+    width:100%;
+    padding: 10px 20px;
+
+}
+.footerpic{
+    border-radius:3px;
+}
+.middle_section{
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    border-color: red;
+}
+.column{
+     margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    border-color: red;
+}
